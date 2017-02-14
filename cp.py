@@ -2,7 +2,6 @@ import csv
 
 with open('r18.csv', 'r') as f:
 	reader = csv.reader(f)
-	header = next(reader)  # ヘッダーを読み飛ばしたい時
 
 	r18_map = {}
 	for row in reader:
